@@ -1,0 +1,77 @@
+{
+  "id": "com.appzyro.shiftmaster",
+  "name": "Shift Master",
+  "short_name": "ShiftMaster",
+  "description": "Shifts in Motion, Records in Control. A comprehensive shift management app for rotating duties, featuring automated reminders, overtime tracking, and calendar integration.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "orientation": "portrait",
+  "categories": [
+    "productivity",
+    "utilities",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/shiftmaster/192/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://picsum.photos/seed/shiftmaster/512/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://picsum.photos/seed/shiftmaster/512/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://picsum.photos/seed/shiftmaster-ss1/1080/1920.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard View"
+    },
+    {
+      "src": "https://picsum.photos/seed/shiftmaster-ss2/1920/1080.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Schedule Management"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Schedule",
+      "url": "/?tab=schedule",
+      "icons": [
+        {
+          "src": "https://picsum.photos/seed/shiftmaster-schedule/192/192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "url": "/?tab=setting",
+      "icons": [
+        {
+          "src": "https://picsum.photos/seed/shiftmaster-settings/192/192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

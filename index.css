@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #256af4;
+  --color-background-light: #f0f2f5;
+  --color-background-dark: #101622;
+  --color-accent-orange: #ff8c42;
+  --color-accent-yellow: #f9c80e;
+  --color-accent-blue: #4361ee;
+  --color-accent-purple: #9d4edd;
+  --color-accent-red: #ef4444;
+  --color-accent-green: #10b981;
+  
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+}
+
+@layer components {
+  .neumorphic-card {
+    @apply bg-white dark:bg-[#161e2e] shadow-[6px_6px_12px_rgba(0,0,0,0.05),-2px_-2px_8px_rgba(255,255,255,0.8)] dark:shadow-[6px_6px_12px_#0a0e16,-2px_-2px_8px_#1c263a];
+  }
+  
+  .neumorphic-inset {
+    @apply bg-slate-50 dark:bg-[#101622] shadow-[inset_4px_4px_8px_rgba(0,0,0,0.05),inset_-4px_-4px_8px_rgba(255,255,255,0.8)] dark:shadow-[inset_4px_4px_8px_#080b11,inset_-4px_-4px_8px_#182133];
+  }
+
+  .active-glow-orange {
+    @apply shadow-[0_0_20px_rgba(255,140,66,0.4)] border-2 border-accent-orange;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  @apply bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans antialiased transition-colors duration-300;
+}
