@@ -1,0 +1,5 @@
+{
+  "name": "Shift Master",
+  "description": "Shifts in Motion, Records in Control. A comprehensive shift management app for rotating duties, featuring automated reminders, overtime tracking, and calendar integration.",
+  "requestFramePermissions": ["notifications", "camera"]
+}
